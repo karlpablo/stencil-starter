@@ -4,7 +4,8 @@ import { format } from '../../utils/utils';
 @Component({
   tag: 'my-component',
   shadow: true,
-  styleUrl: 'my-component.css',
+  // styleUrl: 'my-component.css',
+  styles: 'div { background-color: red; }', // <- while local dev is running, change this to any other color, it won't work until you refresh the page!
 })
 export class MyComponent {
   /**

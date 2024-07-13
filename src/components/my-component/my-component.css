@@ -1,3 +1,8 @@
 :host {
   display: block;
 }
+
+/* No HMR issues when `styleUrl` is used! */
+div {
+  background-color: green;
+}
